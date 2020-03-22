@@ -1,3 +1,3 @@
 {
-    "python.pythonPath": ".venv/bin/python"
+    "python.pythonPath": "/var/git/python/scsetl/.venv/bin/python3.7"
 }

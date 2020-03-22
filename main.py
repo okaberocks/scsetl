@@ -15,11 +15,14 @@ cases_df.replace(
 )
 cases_df['codpostal'] = cases_df['codpostal'].astype(int)
 cases_df['codpostal'] = cases_df['codpostal'].astype(object)
+cases_df.replace({'localidad': '(LA)'}, '')
+print(cases_df)
 
-results = cases_df.groupby(['codpostal']).count()
+
+""" results = cases_df.groupby(['codpostal']).count()
 print(type(results))
 print(results)
 
 results_dataset = pyjstat.Dataset.read(pd.DataFrame({'codpostal': results.index, 'ID': results['ID']}), value='ID') 
 print(results_dataset)
-print(results_dataset.write())
+print(results_dataset.write()) """
