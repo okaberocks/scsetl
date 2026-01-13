@@ -20,12 +20,11 @@ more-itertools = {index = "pypi",version = "*"}
 python-decouple = {index = "pypi",version = "*"}
 pandas = {index = "pypi",version = "*"}
 xlrd = {index = "pypi",version = "*"}
-etlstat = {index = "pypi",version = "*"}
+etlstat = {index = "pypi",version = "0.9.4"}
 scikit-learn = {index = "pypi",version = "*"}
 tweepy = {index = "pypi",version = "*"}
 pyjstat = {index = "pypi",version = "*"}
 beautifuldict = {index = "pypi",version = "*"}
 
 [requires]
-python_version = "3.7.2"
-
+python_version = "3.9"
